@@ -1,0 +1,23 @@
+- url: post-s-1.jpg
+  cat: Gadgets
+  heading: World full of Gadgets
+  description: Xiaomi Mi TV Shipments in India Touch the 1-Million Mark in Less Than a Year
+  date:  September 14, 2018
+
+- url: post-s-2.jpg
+  cat: Travel
+  heading: A Road Ahead
+  description: The road ahead might be paved - it might not be.
+  date:  November 11, 2018
+
+- url: post-s-3.jpg
+  cat: Photography
+  heading: It's all about capturing the moment
+  description: 
+  date:  January 1, 2018
+
+- url: post-s-4.jpg
+  cat: Vacation
+  heading: Through the Mist
+  description: Travel makes you see what a tiny place you occupy in the world.
+  date:  July 14, 2018

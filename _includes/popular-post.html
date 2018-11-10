@@ -1,0 +1,13 @@
+<aside class="single_sidebar_widget popular_post_widget">
+    <h3 class="widget_title">Popular Posts</h3>
+    {% for item in site.data.popular-post %}
+        <div class="media post_item">
+            <img src="{{item.url}}" alt="post">
+            <div class="media-body">
+                <a href="#"><h3>{{item.name}}</h3></a>
+                <p>{{item.time}}</p>
+            </div>
+        </div>
+    {% endfor %}
+    <div class="br"></div>
+</aside>

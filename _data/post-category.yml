@@ -1,0 +1,20 @@
+- name: Technology
+  number: 37
+
+- name: LifeStyle
+  number: 24
+
+- name: Fashion
+  number: 59
+
+- name: Art
+  number: 45
+
+- name: Food
+  number: 23
+
+- name: Architecture
+  number: 78
+
+- name: Adventure
+  number: 56

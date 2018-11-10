@@ -1,0 +1,22 @@
+<section class="post_slider_area">
+	<div class="post_slider_inner owl-carousel">
+		{% for item in site.data.slider-item %}
+		<div class="item">
+			<div class="post_s_item">
+				<div class="post_img">
+					<img src="/img/post-slider/{{item.url}}" alt="">
+				</div>
+				<div class="post_text">
+					<a class="cat" href="#">{{item.cat}}</a>
+					<a href="/single-blog/"><h4>{{item.heading}}</h4></a>
+					<p>{{item.description}}</p>
+					<div class="date">
+						<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>{{item.date}}</a>
+						<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</section>
